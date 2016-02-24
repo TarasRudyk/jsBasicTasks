@@ -5,22 +5,21 @@
     </head>
     <body>
         <h1> Input values</h1>
-        <form name="digit" action="" method="post">
+        <form action="javascript:calc()" method ="post">
             <ol>    
-               <li><input type="text" size=10 id="num_1"></li>
-               <li><input type="text" size=10 id="num_2"></li>
-               <li><input type="text" size=10 id="num_3"></li>
-               <li><input type="text" size=10 id="num_4"></li>
-               <li><input type="text" size=10 id="num_5"></li>
-               <li><input type="text" size=10 id="num_6"></li>
+               <li><input type="text" name="number" id="num_1" required></li><br>
+               <li><input type="text" id="num_2" required></li><br>
+               <li><input type="text" id="num_3" required></li><br>
+               <li><input type="text" id="num_4" required></li><br>
+               <li><input type="text" id="num_5" required></li><br>
+               <li><input type="text" id="num_6" required></li><br>
+               <button onclick="calc()">Calculate</button>
             </ol>
-
-
-            
-        </form></form>
-        <h1> Define <strong>max</strong>value</h1>
+        </form>
+        <p id="Arr"></p>      
+        <h1> Define max value</h1>
         <p id="max"></p>
-        <h1> Define <strong>min</strong>value </h1>
+        <h1> Define min value</h1>
         <p id="min"></p>
         <h1> Sorted values</h1>
         <p id="sorted"></p>
@@ -28,12 +27,6 @@
         <p id="even"></p>
         <h1> Odd values</h1>
         <p id="odd"></p>
-        <script>
-            
-            
-            
-            
-            
-        </script>
+        <script type="text/javascript" src="basic.js"></script>
     </body>
 </html>
